@@ -1,0 +1,222 @@
+<!-- document title -->
+<title>Newsletter</title>
+<!-- CSS -->
+<style> /* shf logo color #7A1A1A - rgb(122, 26, 26) */
+
+body {
+	background-color: rgb(150, 150, 150);
+	font-family: sans-serif;
+}
+header{
+	background-color: rgba(30, 30, 30, 0.3);
+  position: static;
+  text-align: center;
+	border-bottom: 10px rgb(122, 26, 26) groove;
+	padding-top: 1px;
+	border-radius: 50px 50px 0 0;
+	margin: 40px 40px 0px 40px;
+}
+header h1 {
+	text-align: center;
+	color: rgb(60, 0, 0);
+}
+nav {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: rgba(80, 80, 80, 0.8);
+	border-bottom: 10px rgb(122, 26, 26) groove;
+	position: sticky;
+	border-radius: 0 0 50px 50px;
+	margin: 0px 40px 20px 40px;
+}
+nav a {
+	margin: 8%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgb(80, 80, 80);
+	border-radius: 10px;
+	color: rgb(60, 0, 0);
+	font-size: 20px;
+}
+nav a:hover {
+	background-color: rgb(83, 83, 83);
+	color: rgb(100, 0, 0);
+}
+
+/* individual entries */
+.entry {
+	background-color: rgb(110, 110, 110);
+	border-radius: 20px;
+	padding: 0px 0px 10px 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+	
+	/* border-left: 10px rgb(122, 26, 26) solid; */
+	color: rgb(60, 0, 0);
+	max-height: 300px;
+	overflow: auto;
+}
+.title {
+	background-color: rgb(80, 80, 80);
+	margin: 0px;
+	padding: 20px 30px 10px 30px;
+	border-radius: 20px 20px 0px 0px;
+	border-bottom: 10px rgb(122, 26, 26) ridge;
+}
+.date {
+	color: rgb(40, 0, 0);
+	font-size: 15px;
+	text-decoration: underline dotted rgb(40, 0, 0);
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+}
+.entryBreak {
+	border: 3px dotted rgba(40, 0, 0, 0.3);
+	margin: 40px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 100px;
+}
+.bodyParagraph {
+	padding: 0px 20px 0px 20px;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+</style>
+
+</head>
+
+<body>
+<!-- header and navigation template -->
+<header>
+	<h1 style="font-size: 50px;">
+	SHF NEWSLETTER
+	</h1>
+</header>
+
+<nav>
+		<a href="/Home" id="home">Home</a>
+		<a href="/Newsletter" id="newsletter">Newsletter</a>
+		<a href="/AbouttheSite" id=aboutSite">About the Site</a>
+		<a href="/AbouttheStudents" id="aboutStudents">About the students</a>
+	</nav>
+
+
+<!-- main area -->
+
+<!-- example entry to copypaste:
+
+<div class="entry">
+<h1 class="title">
+Placeholder title
+</h1>
+<h2 class="date">
+Placeholder date
+</h2>
+<p class="bodyParagraph">
+Placeholder text
+</p>
+</div>
+<hr class="entryBreak">
+
+-->
+
+<hr class="entryBreak">
+
+<!-- entry -->
+<div class="entry">
+<h1 class="title">
+Overflow test
+</h1>
+<h2 class="date">
+1/4/2024
+</h2>
+<p class="bodyParagraph">
+for large paragraphs! - 
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+just writing things to make sure it looks the way I want it
+</p>
+</div>
+<!-- end of entry -->
+
+<hr class="entryBreak">
+
+<!-- entry -->
+<div class="entry">
+<h1 class="title">
+Test
+</h1>
+<h2 class="date">
+1/4/2024
+</h2>
+<p class="bodyParagraph">
+just writing things to make sure it looks the way I want it
+</p>
+</div>
+<!-- end of entry -->
+
+<hr class="entryBreak">
+
+<!-- entry -->
+<div class="entry">
+<h1 class="title">
+Test
+</h1>
+<h2 class="date">
+1/4/2024
+</h2>
+<p class="bodyParagraph">
+just writing things to make sure it looks the way I want it
+</p>
+</div>
+<!-- end of entry -->
+
+</body>
+
+</html>
